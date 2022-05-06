@@ -624,18 +624,19 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "id Software LLC";
 			};
 			buildConfigurationList = 81225A280912C3A4005D34B9 /* Build configuration list for PBXProject "game" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				Base,
+				en,
+				fr,
+				de,
+				ja,
 			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* game */;
 			projectDirPath = "";
@@ -760,11 +761,11 @@
 		81225A250912C3A4005D34B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_MODEL_TUNING = G5;
@@ -788,7 +789,6 @@
 					"$(OTHER_CFLAGS)",
 					"-fpermissive",
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = game;
 				SDKROOT = macosx;
 				ZERO_LINK = YES;
@@ -798,7 +798,7 @@
 		81225A260912C3A4005D34B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -826,7 +826,6 @@
 					"$(OTHER_CFLAGS)",
 					"-fpermissive",
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = game;
 				SDKROOT = macosx;
 				SYMROOT = build;
@@ -837,7 +836,8 @@
 		81225A290912C3A4005D34B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 1;
@@ -847,8 +847,9 @@
 					GAME_DLL,
 				);
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
 			name = Debug;
@@ -856,7 +857,7 @@
 		81225A2A0912C3A4005D34B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				GCC_MODEL_TUNING = "";
 				GCC_ONE_BYTE_BOOL = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -865,7 +866,7 @@
 					GAME_DLL,
 				);
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
 					"-finline",
 					"-finline-limit=1000",
@@ -876,7 +877,7 @@
 					"-fomit-frame-pointer",
 					"-fno-common",
 				);
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
 			name = Release;

@@ -1,0 +1,11 @@
+Target dependency graph (5 targets)
+idlib_nopic in idlib, no dependencies
+oggVorbis_nopic in oggVorbis, no dependencies
+idlib_pic in idlib, no dependencies
+game in game, depends on:
+idlib_pic in idlib (explicit)
+Doom 3 in Doom3, depends on:
+idlib_nopic in idlib (explicit)
+oggVorbis_nopic in oggVorbis (explicit)
+game in game (explicit)
+idlib_pic in idlib (implicit dependency via file 'libidlib_pic.a' in build phase 'Link Binary')

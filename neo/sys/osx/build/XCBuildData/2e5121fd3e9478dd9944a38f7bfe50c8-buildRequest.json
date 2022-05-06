@@ -1,0 +1,69 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c59f5bff953c474fd9b84921ae38e57a54ccd73ff59a6499f9d09a4538b4d504"
+    },
+    {
+      "guid" : "234def6e82b0887bd6d2f5aec8b030ebe10060c193e0022c9a692f01b5a0cc55"
+    },
+    {
+      "guid" : "778efee7c039fcce57b39630e8319c6a62675e30331102e46b7ea45e36c57607"
+    },
+    {
+      "guid" : "778efee7c039fcce57b39630e8319c6a06d7acd0181ab24cda8ecc141c48312d"
+    },
+    {
+      "guid" : "566b8d9486075fed15deeda1e84072f706d7acd0181ab24cda8ecc141c48312d"
+    }
+  ],
+  "containerPath" : "/Users/nikitamamontov/dev/Doom3-for-MacM1/neo/sys/osx/Doom3.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/nikitamamontov/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/nikitamamontov/Library/Developer/Xcode/DerivedData/Doom3-hgquskjcpdtyeudzjhiytdlvcfpw/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/nikitamamontov/Library/Developer/Xcode/DerivedData/Doom3-hgquskjcpdtyeudzjhiytdlvcfpw/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
